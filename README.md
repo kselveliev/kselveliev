@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Kris</h1>
 - 🔭 I’m currently working as Blockchain developer
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
