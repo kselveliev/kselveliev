@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script defer data-domain="kselveliev.com" src="https://plausible.io/js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4efe6" />
+    <title>Kristiyan Selveliev — Senior Software Developer</title>
+    <meta
+      name="description"
+      content="Senior software developer and open-source advocate. Kristiyan Selveliev designs and builds fast, modern websites for people, startups, and businesses."
+    />
+    <link rel="canonical" href="https://www.kselveliev.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Kristiyan Selveliev" />
+    <meta property="og:title" content="Kristiyan Selveliev — Senior Software Developer" />
+    <meta
+      property="og:description"
+      content="Senior software developer and open-source advocate. When I'm not coding or contributing to open source, you'll find me sprinting on the track as a semi-pro athlete."
+    />
+    <meta property="og:url" content="https://www.kselveliev.com" />
+    <meta property="og:image" content="https://www.kselveliev.com/me.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kristiyan Selveliev — Senior Software Developer" />
+    <meta
+      name="twitter:description"
+      content="Senior software developer and open-source advocate. Fast, modern websites, built directly with Kristiyan."
+    />
+    <meta name="twitter:image" content="https://www.kselveliev.com/me.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,520;0,9..144,620;1,9..144,520&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kristiyan Selveliev",
+        "jobTitle": "Senior Software Developer",
+        "url": "https://www.kselveliev.com",
+        "email": "mailto:kselveliev@gmail.com",
+        "image": "https://www.kselveliev.com/me.png",
+        "description": "Senior software developer and open-source advocate. When I'm not coding or contributing to open source, you'll find me sprinting on the track as a semi-pro athlete.",
+        "sameAs": [
+          "https://github.com/kselveliev",
+          "https://www.linkedin.com/in/kristiyan-s-615b79182/",
+          "https://x.com/KristiyanS79184",
+          "https://www.instagram.com/kristiyan_selveliev/?hl=en"
+        ]
+      }
+    </script>
+    <script>
+      try {
+        var stored = localStorage.getItem("theme");
+        var systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var dark = stored === "dark" || (stored !== "light" && systemDark);
+        if (dark) document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = dark ? "dark" : "light";
+        var themeMeta = document.querySelector('meta[name="theme-color"]');
+        if (themeMeta) themeMeta.setAttribute("content", dark ? "#1c1b18" : "#f4efe6");
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
